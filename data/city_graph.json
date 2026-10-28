@@ -1,0 +1,21 @@
+{
+  "nodes": [
+    {"id":0,"name":"City Hospital","x":1,"y":7,"type":"hospital"}, {"id":1,"name":"Market","x":3,"y":7,"type":"junction"}, {"id":2,"name":"Old Town","x":5,"y":7,"type":"junction"}, {"id":3,"name":"Station Road","x":7,"y":7,"type":"junction"}, {"id":4,"name":"North Police Post","x":9,"y":7,"type":"police"},
+    {"id":5,"name":"School Zone","x":1,"y":5,"type":"junction"}, {"id":6,"name":"Park Junction","x":3,"y":5,"type":"junction"}, {"id":7,"name":"Central Square","x":5,"y":5,"type":"junction"}, {"id":8,"name":"Mall Road","x":7,"y":5,"type":"junction"}, {"id":9,"name":"East Hospital","x":9,"y":5,"type":"hospital"},
+    {"id":10,"name":"West Fire Station","x":1,"y":3,"type":"fire"}, {"id":11,"name":"Riverside","x":3,"y":3,"type":"junction"}, {"id":12,"name":"Central Police HQ","x":5,"y":3,"type":"police"}, {"id":13,"name":"Tech Park","x":7,"y":3,"type":"junction"}, {"id":14,"name":"East Gate","x":9,"y":3,"type":"junction"},
+    {"id":15,"name":"Industrial Area","x":1,"y":1,"type":"junction"}, {"id":16,"name":"Bus Terminal","x":3,"y":1,"type":"junction"}, {"id":17,"name":"South Fire Station","x":5,"y":1,"type":"fire"}, {"id":18,"name":"Highway Exit","x":7,"y":1,"type":"junction"}, {"id":19,"name":"Airport Road","x":9,"y":1,"type":"junction"}
+  ],
+  "edges": [
+    {"u":0,"v":1,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":1,"v":2,"distance_km":2.2,"speed_kph":40,"hazard":0.1},{"u":2,"v":3,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":3,"v":4,"distance_km":2.6,"speed_kph":40,"hazard":0.2},
+    {"u":5,"v":6,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":6,"v":7,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":7,"v":8,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":8,"v":9,"distance_km":2.4,"speed_kph":40,"hazard":0.2},
+    {"u":10,"v":11,"distance_km":2.3,"speed_kph":30,"hazard":0.3},{"u":11,"v":12,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":12,"v":13,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":13,"v":14,"distance_km":2.0,"speed_kph":40,"hazard":0.1},
+    {"u":15,"v":16,"distance_km":2.0,"speed_kph":30,"hazard":0.2},{"u":16,"v":17,"distance_km":2.5,"speed_kph":30,"hazard":0.3},{"u":17,"v":18,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":18,"v":19,"distance_km":2.2,"speed_kph":40,"hazard":0.2},
+    {"u":0,"v":5,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":5,"v":10,"distance_km":2.4,"speed_kph":30,"hazard":0.3},{"u":10,"v":15,"distance_km":2.0,"speed_kph":30,"hazard":0.2},
+    {"u":1,"v":6,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":6,"v":11,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":11,"v":16,"distance_km":2.6,"speed_kph":30,"hazard":0.3},
+    {"u":2,"v":7,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":7,"v":12,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":12,"v":17,"distance_km":2.0,"speed_kph":40,"hazard":0.1},
+    {"u":3,"v":8,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":8,"v":13,"distance_km":2.0,"speed_kph":50,"hazard":0.1},{"u":13,"v":18,"distance_km":2.4,"speed_kph":30,"hazard":0.3},
+    {"u":4,"v":9,"distance_km":2.0,"speed_kph":40,"hazard":0.2},{"u":9,"v":14,"distance_km":2.0,"speed_kph":40,"hazard":0.1},{"u":14,"v":19,"distance_km":2.0,"speed_kph":30,"hazard":0.2},
+    {"u":6,"v":12,"distance_km":3.2,"speed_kph":30,"hazard":0.4},{"u":8,"v":12,"distance_km":3.0,"speed_kph":40,"hazard":0.2},{"u":1,"v":7,"distance_km":3.1,"speed_kph":40,"hazard":0.2},
+    {"u":3,"v":7,"distance_km":2.9,"speed_kph":50,"hazard":0.1},{"u":8,"v":14,"distance_km":3.3,"speed_kph":30,"hazard":0.3},{"u":11,"v":17,"distance_km":3.4,"speed_kph":30,"hazard":0.4}
+  ]
+}
